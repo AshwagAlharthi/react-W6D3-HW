@@ -37,10 +37,10 @@ function Login() {
         <div className='flex justify-center items-center w-full h-screen bg-[#e1d9cf]'>
             <div className='relative flex flex-col justify-evenly items-end w-[50%] h-[90%] max-sm:gap-2 max-sm:w-full max-sm:h-[60%]'>
                 <div className='w-full h-[10%]'>
-                    <h1 className='font-bold text-5xl text-[#263238] max-sm:text-center'>Chatting App!</h1>
+                    <h1 className='font-bold text-5xl text-[#263238] max-sm:text-4xl max-sm:text-center'>Chatting App!</h1>
                 </div>
                 <div className='flex justify-end items-center w-full h-[80%] max-sm:w-full max-sm:h-auto max-md:w-full'>
-                    <div className='absolute top-40 left-20 flex flex-col justify-center items-center gap-5 max-sm:top-40 max-sm:-left-3 max-md:-left-0'>
+                    <div className='absolute top-40 left-20 flex flex-col justify-center items-center gap-5 max-sm:top-44 max-sm:-left-3 max-md:-left-0'>
                         <div className="chat chat-end">
                             <div className="chat-bubble bg-[#C19A6B] w-[22vw] h-[10vh] max-sm:w-[55vw] max-sm:h-[6vh]">
                                 <input type="text" value={user1} onChange={handleUser1} className='bg-transparent w-full h-full pl-2 text-black placeholder:text-gray-600 max-sm:text-sm' placeholder='Enter First User Name' />
